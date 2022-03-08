@@ -99,7 +99,8 @@ h1 {
     justify-content: center;
     font-size: xx-large;
     width: 70%;
-    
+    color:black; 
+      
 }
 
 .buttons {
@@ -129,4 +130,13 @@ h1 {
     font-weight: 600;
     border: 5px solid black;
     background-color: white;
+}
+h2 {
+    font-size: 500%;
+    color : black ;
+}
+.seccion2{
+    
+    height: 100%;
+    width: 100%;
 }
