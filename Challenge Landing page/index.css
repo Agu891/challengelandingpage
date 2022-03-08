@@ -2,6 +2,7 @@
     font-family: fuentepiola;
     src: url(./Fuente/Fredoka-VariableFont_wdth\,wght.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 body{
    font-family: fuentepiola;
@@ -15,9 +16,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 1%;
+    border-radius: 15px;
+    height: 5%;
+    
     
 }
-img {
+.logo {
+    height: 400%;
     
 }
 
@@ -131,10 +136,10 @@ h1 {
     border: 5px solid black;
     background-color: white;
 }
-h2 {
+/* h2 {
     font-size: 500%;
     color : black ;
-}
+} */
 .seccion2{
     
     height: 100%;
