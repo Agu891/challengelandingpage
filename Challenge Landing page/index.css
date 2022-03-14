@@ -156,6 +156,11 @@ h1 {
     font-size: 3rem;
     color : black ;
 } 
+p { 
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
 .seccion2 {
     margin-right:  50% ;
     height: 100%;
@@ -164,7 +169,7 @@ h1 {
 
 
 
-@media  screen and (max-width: 360px) {
+@media  screen and (max-width: 430px) {
 
     nav{ 
         background-image: url(https://www.teahub.io/photos/full/86-869886_hd-wood.jpg);
@@ -302,8 +307,288 @@ h1 {
     h2 {
         font-size: 2rem;
     }
+}
 
+@media (min-width: 431px) and (max-width: 999px) {
+    nav{ 
+        background-image: url(https://www.teahub.io/photos/full/86-869886_hd-wood.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: 55%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
 
+        
+        
+    }
+    
+    .logo {
+        display: flex ;
+        width: 30%;
+        height: 30%;
+        align-self: flex-start;
+        order: -1;
+        
+    
+    }
 
+    .ul1 {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 10%;
+        flex-wrap: wrap;
+        
+
+        
+    }
+
+    .ul2{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+        
+       
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        border-top:  2px solid rgb(117, 253, 6);
+        border-left:  2px solid rgb(117, 253, 6);
+        padding-left: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        flex-wrap: wrap;
+        background-image: background-image: url(https://www.teahub.io/photos/full/86-869886_hd-wood.jpg);
+        font-family: 'fuentepiola' , cursive;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        width: 7rem;
+        height: 1.5rem;
+    }
+
+    .tituloylogo {
+        background-image: url(https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265__480.jpg);
+        display: flex;
+        width: 100%;
+        padding-top: 5%;
+        flex-direction: column;
+        border-bottom: 5px solid blue;
+        flex-wrap: wrap;
+        margin: 0px;
+        
+}
+    
+    .titulo{
+        display: flex;
+        font-size:1rem;
+        width: 50%;
+ }
+
+    p { 
+        font-size: 1rem;
+        color: black;
+        font-weight: 600;
+    }
+
+    .logo2 {
+        
+        width: 0vh;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        margin-top: 50%;
+        font-size: 1rem;
+    }
+    .button1 {
+        width: 100%;
+        height: 200%;
+        border-radius: 40px;
+        background-color: black ;
+        border: 3px solid rgb(0, 0, 0);
+        color: white;
+        font-size: 1rem;
+        font-family: fuentepiola;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+    .button2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        font-size: 1rem; 
+        font-family: fuentepiola;
+        font-weight: 600;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+.seccion2{
+    background: rgb(2,0,36);
+    background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(209,209,209,1) 1%, rgba(0,212,255,1) 100%);
     
 }
+    h2 {
+        font-size: 2rem;
+    }
+
+    
+
+
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+    nav{ 
+        background-image: url(https://www.teahub.io/photos/full/86-869886_hd-wood.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: 55%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        
+        
+    }
+    
+    .logo {
+        display: flex ;
+        width: 15%;
+        height: 30%;
+        align-self: flex-start;
+        order: -1;
+        
+    
+    }
+
+    .ul1 {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 10%;
+        flex-wrap: wrap;
+        
+
+        
+    }
+
+    .ul2{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+        
+       
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        border-top:  2px solid rgb(117, 253, 6);
+        border-left:  2px solid rgb(117, 253, 6);
+        padding-left: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        flex-wrap: wrap;
+        background-image: background-image: url(https://www.teahub.io/photos/full/86-869886_hd-wood.jpg);
+        font-family: 'fuentepiola' , cursive;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        width: 7rem;
+        height: 1.5rem;
+    }
+
+    .tituloylogo {
+        background-image: url(https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265__480.jpg);
+        display: flex;
+        width: 100%;
+        padding-top: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 5px solid blue;
+        margin-bottom: 0px;
+        
+        
+}
+    
+    .titulo{
+        display: flex;
+        font-size:1rem;
+        width: 50%;
+        height: 100%;
+        
+ }
+
+    p { 
+        font-size: 1rem;
+        color: black;
+        font-weight: 600;
+    }
+
+    .logo2 {
+        
+        width: 0vh;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 15%;
+        justify-content: space-between;
+        margin-top: 20%;
+        font-size: 1rem;
+    }
+    .button1 {
+        width: 100%;
+        border-radius: 40px;
+        background-color: black ;
+        border: 3px solid rgb(0, 0, 0);
+        color: white;
+        font-size: 1rem;
+        font-family: fuentepiola;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+    .button2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        font-size: 1rem; 
+        font-family: fuentepiola;
+        font-weight: 600;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+.seccion2{
+    background: rgb(2,0,36);
+    background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(209,209,209,1) 1%, rgba(0,212,255,1) 100%);
+    
+}
+    h2 {
+        font-size: 2rem;
+    }
+
+
+
+}
+    
