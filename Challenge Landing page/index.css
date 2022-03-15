@@ -267,10 +267,10 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
-    padding-top: ;
+    
     background-color: #fbfbfb;
     border-radius: 20px;
-    padding-left: 0.5%;
+    padding-left: 1vh;
     box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.7);
         -webkit-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
         -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
