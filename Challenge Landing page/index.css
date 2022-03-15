@@ -167,8 +167,8 @@ p {
     nav{ 
        
        
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: flex-start;
         width: 100%;
         height: 5vh;
@@ -290,15 +290,10 @@ p {
     {
         transform: none;
     }
-    .logo {
-        display: none ;            /* cambiar luego */
-        width: 25%;
-        justify-content: flex-end;
-        align-self: flex-end;
-        height: 5vh;
-        
-        
     
+    .logo {
+        width:2.5rem;
+        margin-top: 0.5vh;
     }
 
     .ul1 {
@@ -404,11 +399,11 @@ p {
     nav{ 
        
        
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: flex-start;
         width: 100%;
-        height: 5vh;
+        height: 6vh;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
 
@@ -456,7 +451,7 @@ p {
     #menuToggle span {  
         display: block;
         width: 4vh;
-        height: 0.5vh ;
+        height: 0.7vh ;
         margin-bottom: 5px;      /* Ver si lo puedo hacer con una  IMG */
         position: relative;
         
@@ -529,14 +524,8 @@ p {
     }
     
     .logo {
-        display: none ;            /* cambiar luego */
-        width: 25%;
-        justify-content: flex-end;
-        align-self: flex-end;
-        height: 5vh;
-        
-        
-    
+        width:2.8rem;
+        margin-top: 0.5vh;
     }
 
     .ul1 {
@@ -654,11 +643,11 @@ p {
     nav{ 
        
        
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: flex-start;
         width: 100%;
-        height: 5vh;
+        height: 6vh;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
 
@@ -706,7 +695,7 @@ p {
     #menuToggle span {  
         display: block;
         width: 4vh;
-        height: 0.5vh ;
+        height: 0.7vh ;
         margin-bottom: 5px;      /* Ver si lo puedo hacer con una  IMG */
         position: relative;
         
@@ -779,14 +768,11 @@ p {
     }
     
     .logo {
-        display: none ;
-        width: 15vh;
-        align-self: flex-start;
-        order: -1;
-        padding-left: 5vh;
-        
-    
+        width:2.8rem;
+        margin-top: 0.5vh;
     }
+
+
 
     .ul1 {
         display: flex;
