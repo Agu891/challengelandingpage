@@ -342,8 +342,8 @@ h4 {
 
     #menuToggle span {  
         display: block;
-        width: 4vh;
-        height: 0.6vh ;
+        width: 40px;
+        height: 5px ;
         margin-top: 0.7vh;     /* Ver si lo puedo hacer con una  IMG */
         position: relative;
         
@@ -580,8 +580,8 @@ h4 {
 
     #menuToggle span {  
         display: block;
-        width: 4vh;
-        height: 0.7vh ;
+        width: 40px;
+        height: 5px ;
         margin-bottom: 5px;      /* Ver si lo puedo hacer con una  IMG */
         position: relative;
         
@@ -842,8 +842,8 @@ h4 {
 
     #menuToggle span {  
         display: block;
-        width: 4vh;
-        height: 0.7vh ;
+        width: 40px;
+        height: 5px ;
         margin-bottom: 5px;      /* Ver si lo puedo hacer con una  IMG */
         position: relative;
         
