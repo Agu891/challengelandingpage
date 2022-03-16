@@ -777,6 +777,12 @@ h4 {
         width: 80%;
         margin-top: 5vh;
     }
+    .textoArticulo1 {
+        padding-bottom: 2vh;
+    }
+    .textoArticulo4{
+        padding-bottom: 2vh;
+    }
 
 
 }
@@ -1040,6 +1046,12 @@ h4 {
         display: flex;
         width: 80%;
         margin-top: 5vh;
+    }
+    .textoArticulo1 {
+        padding-bottom: 2vh;
+    }
+    .textoArticulo4{
+        padding-bottom: 2vh;
     }
 
 
