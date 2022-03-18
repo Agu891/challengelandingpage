@@ -3,6 +3,11 @@
     src: url(./Fuente/Fredoka-VariableFont_wdth\,wght.ttf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@font-face {
+    font-family: hurricane;
+    src: url(./Fuente/Hurricane/Hurricane-Regular.ttf);
+}
+
 
 body {
     font-family: fuentepiola;
@@ -59,15 +64,39 @@ li{
         -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
     border-radius: 5px;
     background-color: #fbfbfb;
+    transition: background 1s, font-size 0.5s;
+    
     
     
     
 
 }
+
+li:first-child:hover{
+    
+    
+    background-color: cyan;
+    font-size: 2rem;
+}
+li:nth-child(2):hover{
+    font-size: 2rem;
+    background-color: cyan;
+}
+li:nth-child(3):hover{
+    font-size: 2rem;
+    background-color: cyan;
+}
+li:last-child:hover{
+    font-size: 2rem;
+    background-color: cyan;
+}
+
+}
+
 .logo{
     display: flex;
     width: 3%;
-    margin-top: 2vh;
+    
     
     
     
@@ -163,7 +192,11 @@ h1 {
  h2 {
     font-size: 3rem;
     color : black ;
-} 
+    font-family: hurricane;
+    font-weight: 400;
+    
+        
+    } 
 p { 
     font-size: 1.2rem;
     color: black;
@@ -185,8 +218,18 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
     margin-bottom: 10vh;
     margin-top: 10vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+        -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+        
     
 }
 .elementosarticulo {
@@ -280,10 +323,104 @@ h3 {
     font-size: 2rem;
     color: rgb(0, 0, 0);
     
+    
+    
 }
 h4 {
     font-size: 1.7rem;
     color:black
+}
+.articulo2 {
+    background-image: url(./img/380323-carpenter-tools-wallpaper-top-free-carpenter-tools-background.jpg);
+    margin: 0px;
+    
+}
+.tituloClientes{
+    text-align: center;
+     
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    padding-left: 1vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+        -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+
+}
+
+.clientesbox{
+    display: flex;
+    justify-content: space-between;
+}
+.clientes{
+    text-align: center;
+      
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    padding:2vh
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+        -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
+
+}
+
+.instagramLogo{
+   
+    height: 5vh;
+   margin-left: 5%;
+}
+.facebookLogo{
+    
+    height: 5vh;
+    margin-left: 5%;
+   
+}
+.whatsappLogo {
+    
+    height: 5vh;
+    margin-left: 5%;
+   
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+   width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+   align-items: center;
+  
+}
+footer{ margin: 0px;
+    background: rgb(4,41,135);
+    background: linear-gradient(99deg, rgba(4,41,135,1) 0%, rgba(0,212,255,1) 0%, rgba(16,47,136,1) 100%);
+}
+.derechos{
+    text-align: center;
+}
+.icondata{
+    width: 90%;
+    height: 5vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 5vh;
+}
+.boxDatos{
+    display: flex;
+    flex-direction: column;   
+    width: 10%;
+    align-items: flex-start;
+   
+}
+.datos{
+    display: flex;
+    
+    width: 70%;
+    padding-left: 2vh;
+}
+.seguinos{
+    margin-right: 2vh;
+    margin-left: 4vh;
 }
 
 
@@ -523,6 +660,20 @@ h4 {
     .textoArticulo4{
         padding-bottom: 2vh;
     }
+
+    .clientesbox {
+     display: flex;
+     flex-direction: column;
+    
+     
+    }
+    .socialMedia{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 0px
+    }
+
 }
 
 @media (min-width: 431px) and (max-width: 999px) {
@@ -783,6 +934,17 @@ h4 {
     .textoArticulo4{
         padding-bottom: 2vh;
     }
+    .clientesbox {
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .socialMedia{
+           display: flex;
+           justify-content: flex-start;
+           width: 100%;
+           margin: 0px
+       }
 
 
 }
@@ -1053,7 +1215,17 @@ h4 {
     .textoArticulo4{
         padding-bottom: 2vh;
     }
-
+    .clientesbox {
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .socialMedia{
+           display: flex;
+           justify-content: flex-start;
+           width: 100%;
+           margin: 0px
+       }
 
 }
     
