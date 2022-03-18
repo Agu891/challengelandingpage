@@ -193,7 +193,7 @@ h1 {
     font-size: 3rem;
     color : black ;
     font-family: hurricane;
-    font-weight: 400;
+    font-weight: 600;
     
         
     } 
@@ -221,8 +221,8 @@ p {
    
     margin-bottom: 10vh;
     margin-top: 10vh;
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     background-color: #fbfbfb;
     border-radius: 20px;
@@ -347,6 +347,7 @@ h4 {
         -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
 
 }
+
 
 .clientesbox{
     display: flex;
@@ -637,7 +638,7 @@ footer{ margin: 0px;
 
 
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .textoArticulo {
@@ -651,6 +652,8 @@ footer{ margin: 0px;
     .textoArticulo1 {
         padding-bottom: 2vh;
     }
+
+    
     .imagenesArticulo{
         display: flex;
         width: 80%;
@@ -942,7 +945,7 @@ footer{ margin: 0px;
            display: flex;
            justify-content: flex-start;
            width: 100%;
-           margin: 0px
+           margin: 0px;
        }
 
 
