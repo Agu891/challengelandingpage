@@ -195,12 +195,14 @@ h1 {
     font-family: hurricane;
     font-weight: 600;
     
+    
         
     } 
 p { 
     font-size: 1.2rem;
     color: black;
     font-weight: 600;
+    
 }
 
 
@@ -210,6 +212,7 @@ p {
     background-image: url(./img/wp8559505.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .tituloArticulo {
     
@@ -333,6 +336,7 @@ h4 {
 .articulo2 {
     background-image: url(./img/380323-carpenter-tools-wallpaper-top-free-carpenter-tools-background.jpg);
     margin: 0px;
+    padding-top: 2vh;
     
 }
 .tituloClientes{
@@ -341,7 +345,7 @@ h4 {
     background-color: #fbfbfb;
     border-radius: 20px;
     padding-left: 1vh;
-  
+    margin-top: 0px;
     box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.7);
         -webkit-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
         -moz-box-shadow: 9px 10px 5px 1px rgba(0,0,0,0.7);
@@ -391,7 +395,7 @@ h4 {
    align-items: center;
   
 }
-footer{ margin: 0px;
+footer{ 
     background: rgb(4,41,135);
     background: linear-gradient(99deg, rgba(4,41,135,1) 0%, rgba(0,212,255,1) 0%, rgba(16,47,136,1) 100%);
 }
@@ -914,6 +918,8 @@ footer{ margin: 0px;
 }
     h2 {
         font-size: 2rem;
+        margin-top: 0px;
+        padding-top: 2vh;
         
     }
 
