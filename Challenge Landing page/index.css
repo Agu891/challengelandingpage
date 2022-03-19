@@ -194,7 +194,7 @@ h1 {
     color : black ;
     font-family: hurricane;
     font-weight: 600;
-    
+    margin-top: 0px;
     
         
     } 
@@ -282,8 +282,9 @@ p {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 20vh;
+    height: 25vh;
     margin-top: 2vh;
+  
     justify-content: center;
     align-items: center;
     background-color: #fbfbfb;
@@ -337,7 +338,7 @@ h4 {
     background-image: url(./img/380323-carpenter-tools-wallpaper-top-free-carpenter-tools-background.jpg);
     margin: 0px;
     padding-top: 2vh;
-    
+    padding-bottom: 2vh;
 }
 .tituloClientes{
     text-align: center;
