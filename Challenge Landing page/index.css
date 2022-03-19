@@ -399,9 +399,10 @@ h4 {
 footer{ 
     background: rgb(4,41,135);
     background: linear-gradient(99deg, rgba(4,41,135,1) 0%, rgba(0,212,255,1) 0%, rgba(16,47,136,1) 100%);
+   
 }
 .derechos{
-    text-align: center;
+    margin-bottom: 0px;
 }
 .icondata{
     width: 90%;
